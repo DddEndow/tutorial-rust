@@ -60,14 +60,57 @@
 //     let one = tup.2;
 // }
 
+// fn main() {
+//     let a = [1, 2, 3, 4, 5];
+//
+//     let first = a[0];
+//     let second = a[1];
+//
+//     let index = 10;
+//     let element = a[index];
+//
+//     println!("The value of element is: {}", element)
+// }
+
+// fn main() {
+//     println!("Hello, world!");
+//
+//     another_function(5, 6);
+// }
+//
+// fn another_function(x: i32, y: i32) {
+//     // println!("Another function.");
+//     println!("The value of x is: {}", x);
+//     println!("The value of y is: {}", y);
+// }
+
+// fn main() {
+//     let x = 5;
+//
+//     let y = {
+//         let x = 3;
+//         x + 1
+//     };
+//
+//     println!("The value of y is: {}", y);
+// }
+
+// fn main() {
+//     let x = five();
+//
+//     println!("The value of x is: {}", x);
+// }
+//
+// fn five() -> i32 {
+//     5
+// }
+
 fn main() {
-    let a = [1, 2, 3, 4, 5];
+    let x = plus_one(5);
 
-    let first = a[0];
-    let second = a[1];
+    println!("The value of x is: {}", x);
+}
 
-    let index = 10;
-    let element = a[index];
-
-    println!("The value of element is: {}", element)
+fn plus_one(x: i32) -> i32 {
+    x + 1
 }
